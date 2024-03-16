@@ -63,13 +63,15 @@ function App(): JSX.Element {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
+    <SafeAreaView style={[backgroundStyle, {flex: 1}]}>
       <StatusBar
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
 
-      <Text style={{fontSize: 20, color: 'red', textAlign: 'center', flex: 1}}>Hello world</Text>
+      <Text style={{fontSize: 20, color: 'red', textAlign: 'center', flex: 1}}>
+        Hello world
+      </Text>
     </SafeAreaView>
   );
 }
