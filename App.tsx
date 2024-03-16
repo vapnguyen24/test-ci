@@ -76,10 +76,6 @@ function App(): JSX.Element {
       <Text style={{fontSize: 20, color: 'red', textAlign: 'center', flex: 1}}>
         Hello world
       </Text>
-      <Button
-        title={'Press me'}
-        onPress={() => console.log('Button pressed')}
-      />
       <Text>Vinh</Text>
     </SafeAreaView>
   );
