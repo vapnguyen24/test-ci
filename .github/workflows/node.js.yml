@@ -26,8 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install Dependencies
-#      run: yarn
+      run: yarn
 #    - name: Prettier
-      run: yarn prettier
+#      run: yarn prettier
     - name: Build IOS
       run: yarn ios
