@@ -80,6 +80,7 @@ function App(): JSX.Element {
         title={'Press me'}
         onPress={() => console.log('Button pressed')}
       />
+      <Text>Vinh</Text>
     </SafeAreaView>
   );
 }
